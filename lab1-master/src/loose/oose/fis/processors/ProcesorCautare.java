@@ -9,6 +9,7 @@ public class ProcesorCautare implements Procesor {
 
     public ProcesorCautare(String text) {
         this.text = text;
+        System.out.println("I am doing something");
     }
 
     @Override
@@ -23,7 +24,6 @@ public class ProcesorCautare implements Procesor {
                 }
             }
         }
-
         return res;
     }
 }
