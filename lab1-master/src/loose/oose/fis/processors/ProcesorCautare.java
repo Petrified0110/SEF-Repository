@@ -9,6 +9,7 @@ public class ProcesorCautare implements Procesor {
 
     public ProcesorCautare(String text) {
         this.text = text;
+        System.out.println("I am not the same modification");
     }
 
     @Override
